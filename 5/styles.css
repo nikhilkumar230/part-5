@@ -1,0 +1,90 @@
+body {
+  background-image: url("pexels-irina-iriser-1408221.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+
+  img {
+    height: 100%;
+    width: 100%;
+   
+  }
+  .google {text-align: center;
+    img {
+      height: 200px;
+      width: 400px;
+      
+    }
+  }
+  .search-container {
+    text-align: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  
+    padding: 5px;
+    width: 300px;
+}
+
+.search-input {
+    border: none; 
+    outline: none;
+    flex: 1;
+    padding: 10px;
+    border-radius: 20px;
+    line-width: 140px;
+}
+
+.search-button {
+  border-radius: 14px;
+  background-color: rgb(59, 36, 231);
+height: 40px;
+width: 40px;
+    cursor: pointer;
+}
+.apps{
+ button{
+  border-radius: 14px;
+  background-color: rgb(185, 184, 194);
+height: 40px;
+width: 90px;
+    cursor: pointer;
+ }
+ 
+
+
+}
+
+.weather-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.day {
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.day h3 {
+  margin-top: 0;
+  color: chartreuse;
+}
+
+.day p {
+  color: aqua;
+  margin: 5px 0;
+}
+a{
+  text-decoration: none;
+  color: aliceblue
+ 
+}
+a:hover {
+  color: rgba(34, 145, 22, 0.826);
+}
